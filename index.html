@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodyOnline.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="FoodyOnline.css" />
+   <link rel="stylesheet" media="screen and (max-width:1170px)" href="myphone.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="logo.jpg" alt="FoodyOnline.com" />
+      </div>
+      <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#service-cont">Services</a></li>
+        <li class="item"><a href="#client-sec">Our Clients</a></li>
+        <li class="item"><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1 class="h-primary">Welecome Foodies</h1>
+      <p>Are You Hungry?</p>
+
+      <button class="btn">Order Now</button>
+    </section>
+    <section class="service-cont" id="service-cont">
+      <h1 class="h2-primary center">Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="boximg.png" alt="" />
+          <h2 class="h-sec center">Food Catering</h2>
+          <p class="center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+            excepturi qui rem inventore minus fuga aut unde nesciunt voluptate
+            officia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corporis dolorum aut blanditiis dolore, ut esse nihil accusantium unde veniam?
+          </p>
+        </div>
+        <div class="box">
+          <img src="img2.webp" alt="" />
+          <h2 class="h-sec center">Food Platters</h2>
+          <p class="center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+            excepturi qui rem inventore minus fuga aut unde nesciunt voluptate
+            officia.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dignissimos quasi cumque alias unde sed molestiae amet vitae quisquam aliquam.
+          </p>
+        </div>
+        <div class="box">
+          <img src="fooddeliveryimg.webp" alt="" />
+          <h2 class="h-sec center">Food Ordering</h2>
+          <p class="center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+            excepturi qui rem inventore minus fuga aut unde nesciunt voluptate
+            officia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, voluptates nemo facilis blanditiis quas omnis ad corporis sunt nesciunt deserunt.
+          </p>
+        </div>
+        
+      </div>
+    </section>
+  <section class="client-sec" id="client-sec">
+    <h1 class="h-primary center" style="color: orangered;">Our Clients</h1>
+    <div class="clients">
+    <div id="client-item" class="item1">
+      <img src="panda.jpg" alt="" >
+    </div>
+    <div id="client-item "class="item2">
+      <img src="cheetay_logo.png" alt="">
+    </div>
+  </section>
+  <!-- CONTACT US -->
+  <section class="contact" id="contact">
+<h1 class="h-primary center">Contact Us</h1>
+<div class="contact-box">
+<form action="#"  onsubmit="return validation()">
+    
+    <label for="name">Name
+      <input type="text" name="name" id="user" placeholder="Enter Your Name">
+    </label>
+  
+ 
+    <label for="email">Email
+      <input type="email" name="email" id="email" placeholder="Enter Your Email">
+    </label>
+ 
+  
+    <label for="message">Message
+      <textarea name="msg" id="msg" cols="10" rows="3" placeholder="Say something"></textarea>
+    </label>
+ 
+  
+    <div class="button-area">
+      <button type="submit" class="btn" >
+        Send message
+      </button>
+    
+    </div>
+  </form>
+  </div>
+
+
+  </section>
+  <footer>
+    <div class="center">Copyright &copy; www.FoodyOnline.com All right reserved!</div>
+  </footer>
+  <script type="text/javascript" src="Foodsysjs.js"></script>
+  </body>
+</html>

@@ -1,0 +1,257 @@
+/* Css reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Franklin", sans-serif;
+ 
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar (Parent) */
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+}
+
+#navbar::before {
+  content: "";
+  background-color: orangered;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 90%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+  
+}
+
+/* Navigation Bar logo Img */
+#logo {
+  margin: 0px 34px;
+}
+
+#logo img {
+  margin: 9px 6px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Navigation bar li */
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  /* border: 2px solid orangered; */
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+#navbar ul li a {
+  /*  By default inline*/
+  display: block;
+  /* for hover */
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#navbar ul li a:hover {
+  background-color: orange;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  /* border: 2px solid rgb(54, 218, 32); */
+}
+
+/* Background */
+#home::before {
+  content: "";
+  background: url(homee1.jpg) no-repeat center/cover;
+  position: absolute;
+  /* border: 2px solid rgb(85, 218, 200); */
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 642px;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+/* Home sect  */
+#home p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* serivices section */
+#services {
+  margin: 34px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid red;
+  padding: 34px;
+  margin: 25px 16px;
+  margin-bottom: 20px;
+  border-radius: 28px;
+  background-color: rgb(255, 233, 223);
+}
+/* THIRD Section Client section*/
+.client-sec
+{
+/* height: 344px; */
+
+position: relative;
+}
+.clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item1 img{
+  height: 100px;
+ 
+ }
+
+.item2 img{
+ height: 80px;
+
+}
+#client-item{
+  padding: 60px;
+  margin: 20px;
+
+}
+
+.client-sec::before
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+background-color:rgba(249, 162, 2, 0.529);
+  z-index: -1;
+  opacity: 0.8;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 9px 20px;
+}
+/*   Contact */
+.contact{
+  position: relative;
+
+}
+.contact::before
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url(cont.jpg) no-repeat center/cover;
+
+}
+.contact-box input,
+.contact-box textarea{
+  width: 90%;
+  padding: 0.5rem;
+border-radius: 9px;
+font-size: 1rem;
+margin: 1rem;
+border: 2px solid white;
+background-color: rgba(245, 217, 166, 0.373);
+color: white;
+
+}
+::-webkit-input-placeholder{ /* Internet Explorer 10-11 */
+  color: white;
+}
+.contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
+}
+.contact-box form{
+  width: 50%;
+color:white;
+ font-size: 2rem;
+ font-weight: bold;
+  
+}
+.contact-box label
+{
+  font-size: 1.3rem;
+  padding: 0px 19px;
+  
+}
+
+/* *************************** */
+/* utility section */
+/* heading */
+.h-primary {
+  font-size: 2.5rem;
+  padding: 19px;
+  color: white;
+}
+
+.h-sec {
+  font-size: 1.6rem;
+  padding: 12px;
+  color: orangered;
+}
+.h2-primary {
+  color: orangered;
+  font-size: 2.7rem;
+  padding: 12px;
+}
+
+.btn {
+  font-family: "Libre Franklin", sans-serif;
+  padding: 6px 20px;
+  border: 2px solid orange;
+  background-color: orange;
+  color: white;
+  margin: 17px;
+  font-size: 20px;
+  border-radius: 11px;
+}
+
+.btn:hover {
+  background-color: orangered;
+  border: none;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+#services .box img {
+  height: 160px;
+  display: block;
+  margin: auto;
+}
+.box p{
+    color: rgb(249, 107, 55);
+    
+}
+
+
